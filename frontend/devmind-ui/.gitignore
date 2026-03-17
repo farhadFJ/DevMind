@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+build/
+
+# React / Vite
+frontend/devmind-ui/node_modules/
+frontend/devmind-ui/dist/
+
+# .NET
+bin/
+obj/
+
+# User / IDE
+.vscode/
+.idea/
+
+# Secrets
+**/appsettings.Development.json
+**/secrets.json
